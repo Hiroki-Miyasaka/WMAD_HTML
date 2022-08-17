@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, #99FFFF, #FF99FF);
 }
 
 h1 {
@@ -31,4 +31,15 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
+.Musk {color:blue;}
 
+.SpaceX {color: red;}
+
+.doll {color: green;}
+
+.ceo {font-weight: bold;}
+
+.test{
+ width: 500px;
+ text-align: center;  
+}
