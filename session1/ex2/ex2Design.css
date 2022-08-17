@@ -31,15 +31,12 @@ p {
     border-radius: 10px 10px 10px 10px;
 }
 
-.Musk {color:blue;}
+.Musk {color:blue; font-weight: bold;}
 
-.SpaceX {color: red;}
+.SpaceX {color: red; font-style: italic;}
 
-.doll {color: green;}
+.doll {color: green; font-weight: bold;}
 
 .ceo {font-weight: bold;}
 
-.test{
- width: 500px;
- text-align: center;  
-}
+.Elon {font-weight: bold;}
