@@ -1,0 +1,21 @@
+.banner {
+    background-image: url("./images/header.jpg");
+    
+    display: flex;
+    height: 1100px;
+    width: 100%;
+    background-repeat: round;
+    box-shadow: 10px 5px 5px rgb(110, 109, 109);
+}
+
+.title_area {
+    padding-top: 900px;
+}
+  
+.title {
+    align-items: flex-end;
+    font-size: 100px;
+    color: white;
+    background-color: rgb(255, 50, 50);
+    opacity: 0.85;
+}
