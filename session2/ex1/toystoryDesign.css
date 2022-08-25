@@ -1,6 +1,5 @@
 .banner {
     background-image: url("./images/header.jpg");
-    
     display: flex;
     height: 1100px;
     width: 100%;
@@ -18,4 +17,88 @@
     color: white;
     background-color: rgb(255, 50, 50);
     opacity: 0.85;
+}
+
+.select_area{
+    padding-top: 20px;
+}
+
+.select{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(53, 53, 228);
+    font-family: FrizQuadrataRegular;
+    height: 40px;
+    margin-left: 1%;
+}
+
+.blue_bg{
+    width: 65px;
+    background-color: rgb(1, 132, 255);
+}
+
+.person_name{
+    font-size: 60px;
+}
+
+.image_area{
+    text-align: center;
+}
+
+.image_area img {
+    border-radius: 20px;
+}
+
+.contents_area{
+    border-left-style: solid;
+    border-left-color: rgb(1, 132, 255);
+}
+
+.contents_area p{
+    margin-left: 1%;
+}
+
+
+span{
+    font-family: SansationBold;
+    color: red;
+    text-decoration: underline;
+}
+
+.phrase_area{
+    margin-top: 10px;
+}
+
+h3 {
+    color: white;
+    background-color: blue;
+    font-family: FrizQuadrataRegular;
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+footer{
+    padding-top: 10%;
+    border-top: 5px solid black;
+    text-align: center;
+}
+
+p {
+    font-family: SansationLight;
+}
+
+@font-face {
+    font-family: FrizQuadrataRegular;
+    src: url(./fonts/FrizQuadrataRegular.woff);
+}
+
+@font-face {
+    font-family: SansationBold;
+    src: url(./fonts/SansationBold.woff);
+}
+
+@font-face {
+    font-family: SansationLight;
+    src: url(./fonts/SansationLight.woff);
 }
