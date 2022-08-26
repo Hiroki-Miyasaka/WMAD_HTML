@@ -52,10 +52,13 @@
 .contents_area{
     border-left-style: solid;
     border-left-color: rgb(1, 132, 255);
+    text-align: justify;
 }
 
 .contents_area p{
     margin-left: 1%;
+    font-size: 1.5rem;
+    justify-content: center;
 }
 
 
