@@ -50,6 +50,7 @@
 }
 
 .contents_area{
+    display: flex;
     border-left-style: solid;
     border-left-color: rgb(1, 132, 255);
     text-align: justify;
@@ -58,7 +59,8 @@
 .contents_area p{
     margin-left: 1%;
     font-size: 1.5rem;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 
@@ -74,17 +76,19 @@ span{
 
 h3 {
     color: white;
-    background-color: blue;
+    background-color:rgb(1, 132, 255);
     font-family: FrizQuadrataRegular;
     width: 70%;
-    border-radius: 10px;
+    line-height: 2;
+    border-radius: 5px;
     border: 2px solid black;
 }
 
 footer{
-    padding-top: 10%;
-    border-top: 5px solid black;
+    padding-top: 2%;
+    border-top: 2px solid black;
     text-align: center;
+    font-size: 5px;
 }
 
 p {
