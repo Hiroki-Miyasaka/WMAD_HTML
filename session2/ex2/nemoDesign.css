@@ -1,3 +1,30 @@
 body {
     background-image: url("./assets/background.jpg");
+    background-size: cover;
+}
+
+.logo_area{
+    padding-top: 350px;
+    padding-left: 20px;
+}
+
+.logo_area img{
+    width: 600px;
+    height: auto;
+}
+
+.header_area {
+    text-align: center;
+}
+
+.header_area img {
+    border-radius: 20px;
+    width: 1050px;
+    height:auto;
+}
+
+.subtitle {
+    color: orange;
+    background-color: white;
+    text-align: center;
 }
