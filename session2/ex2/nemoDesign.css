@@ -28,3 +28,54 @@ body {
     background-color: white;
     text-align: center;
 }
+
+.contents {
+    border-left: 7px solid orange;
+    background-color: white;
+    font-family: VariableFont;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.contents p {
+    padding: 5px 5px 5px 5px;
+    text-align: justify;
+}
+
+.mark_orange{
+    background-color: orange;
+}
+
+.mark_blue {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.black_border{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.blue_border{
+    color: blue;
+    text-decoration: underline;
+}
+
+.doll{
+    color:green;
+}
+
+.photo_area{
+    text-align: center;
+}
+
+.photo_area img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: VariableFont;
+    src: url(./assets/Montserrat-VariableFont_wght.ttf);
+}
