@@ -3,3 +3,66 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.items_area {
+    margin-top: 500px;
+    margin-left: 30px;
+    font-size: 0;
+}
+
+.items_area p {
+    display: inline-block;
+    color: aliceblue;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+}
+
+.image_area {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.image_area img{
+    border-color: blue red red blue;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.title_area {
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin: auto;
+    width: 95%;
+    height: auto;
+}
+
+.contents_area{
+    margin-top: 20px;
+}
+
+.contents_area p {
+    padding: 5px 5px 5px 5px;
+    background-color: aliceblue;
+    color: black;
+    margin: auto;
+    width: 95%;
+    height: auto;
+}
+
+.lightsaber{
+    color: #9999FF;
+    text-decoration: underline;
+}
+
+.star_wars{
+    padding: 2px 2px 2px 2px;
+    border: solid 0.5px red;
+    font-weight: bold;
+    border-radius: 10%;
+}
