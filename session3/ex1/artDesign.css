@@ -1,0 +1,36 @@
+body {
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.items_area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.items_area ul{
+    background-color: #0099FF;
+    width: 55%;
+    margin: auto;    
+}
+
+.items_area li {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 11px;
+    padding: 20px 10px; 
+}
+
+.title_area {
+    margin-top: 30px;
+    margin-left: 290px;
+}
+
+h1 {
+    border: solid 2px #CC66FF;
+    background: linear-gradient(to right, aliceblue, #CC66CC);
+    text-align: center;
+    width: 300px;
+
+}
