@@ -32,5 +32,11 @@ h1 {
     background: linear-gradient(to right, aliceblue, #CC66CC);
     text-align: center;
     width: 300px;
-
 }
+
+.contents_area{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
