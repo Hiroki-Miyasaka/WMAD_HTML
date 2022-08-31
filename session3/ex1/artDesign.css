@@ -35,8 +35,70 @@ h1 {
 }
 
 .contents_area{
-    margin-top: 20px;
+    margin-top: 20px;  
+    width: 55%;
+    margin:auto;
+}
+
+.back_1 {
+    padding: 10px;
+    background-image: url(./assets/back1.png);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+.back_2 {
+    padding:10px;
+    background-image: url(./assets/back2.png);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+.back_3 {
+    padding:10px;
+    background-image: url(./assets/back3.png);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+.back_4 {
+    padding:10px;
+    background-image: url(./assets/back4.png);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+.back_5 {
+    padding:10px;
+    background-image: url(./assets/back5.png);
+    background-size: cover;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+.art {
+    font-style:italic;
+    text-decoration: underline;
+}
+
+.red_line {
+    color: red;
+    text-decoration: underline;
+}
+
+.image_area {
     text-align: center;
+}
+
+.image_area img{
+    width:55%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #FFFFFF;
 }
 
 
