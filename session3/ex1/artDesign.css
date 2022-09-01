@@ -40,6 +40,10 @@ h1 {
     margin:auto;
 }
 
+.contents_area p {
+    text-align: justify;
+}
+
 .back_1 {
     padding: 10px;
     background-image: url(./assets/back1.png);
@@ -100,5 +104,44 @@ h1 {
     border-radius: 10px;
     border: 5px solid #FFFFFF;
 }
+
+.subtitle_area {
+    margin-left: 290px;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    background: linear-gradient(to right, #0066FF, #DDFFFF);
+    width: 300px;
+    border: solid 3px blue;
+}
+
+.green_back{
+    background-color: #00CC99;
+}
+
+.table_area {
+    margin: auto;
+    background-color: #0099FF;
+    width: 800px;
+    padding: 13px 3px;
+}
+
+.table_area table {
+    margin: auto;
+}
+
+.table_area th {
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+}
+
+.table_area td {
+    background-color: white;
+    border: 1px solid grey;
+}
+
 
 
