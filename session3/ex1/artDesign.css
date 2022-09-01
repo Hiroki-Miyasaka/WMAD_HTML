@@ -2,6 +2,7 @@ body {
     background-image: url(./assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /*background-repeat: repeat-y;*/    
 }
 
 .items_area {
@@ -113,7 +114,7 @@ h2 {
     text-align: center;
     color: aliceblue;
     background: linear-gradient(to right, #0066FF, #DDFFFF);
-    width: 300px;
+    width:fit-content;
     border: solid 3px blue;
 }
 
@@ -124,7 +125,7 @@ h2 {
 .table_area {
     margin: auto;
     background-color: #0099FF;
-    width: 800px;
+    width: 950px;
     padding: 13px 3px;
 }
 
@@ -136,11 +137,15 @@ h2 {
     background-color: black;
     color: white;
     border: 1px solid grey;
+    padding: 3px 20px;
+    white-space: nowrap;
 }
 
 .table_area td {
     background-color: white;
     border: 1px solid grey;
+    padding: 3px 20px;
+    white-space: nowrap;
 }
 
 
