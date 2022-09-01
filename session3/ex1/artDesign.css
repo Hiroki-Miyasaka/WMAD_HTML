@@ -1,8 +1,8 @@
 body {
     background-image: url(./assets/background.jpg);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    /*background-repeat: repeat-y;*/    
+    background-repeat: repeat-y;    
 }
 
 .items_area {
@@ -116,6 +116,7 @@ h2 {
     background: linear-gradient(to right, #0066FF, #DDFFFF);
     width:fit-content;
     border: solid 3px blue;
+    padding: 5px 8px 5px 8px;
 }
 
 .green_back{
@@ -148,5 +149,35 @@ h2 {
     white-space: nowrap;
 }
 
+.orderlist_area {
+    background-color: #99CCFF;
+    border: solid 3px blue;
+    width: 55%;
+    margin: auto;
+}
 
+.orderlist_area li {
+    font-size: 10px;
+    background-color: white;
+    border: solid 1px #33CCFF;
+    border-radius: 5px;
+    white-space: nowrap;
+    margin: 2px 10px 2px -20px;
+    padding-left:3px;
+    padding-top:3px;
+    padding-bottom: 3px;
+}
 
+footer {
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer p{
+    background-color: #33FFFF;
+    font-size: 7px;
+    padding: 5px 20px 5px 20px;
+    white-space: nowrap;
+    text-align: center;
+}
