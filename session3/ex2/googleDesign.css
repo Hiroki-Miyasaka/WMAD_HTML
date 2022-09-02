@@ -1,32 +1,41 @@
 body {
     background-image: url(./assets/background.jpg);
     background-size: cover;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .itemes_area {
-    margin-left: 70px;
-    margin-top: 70px;
+    margin-left: 100px;
+    margin-top: 70px; 
 }
 
 .itemes_area ul {
-    background-color: #3399FF;
+    background: linear-gradient(to bottom, #3399FF, #2C7CFF);
     list-style: none;
     border-radius: 5px;
-    border: double 3px white;
-    width: 10%;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    border: double 3px white;    
+    padding: 20px 15px 20px 40px;
 }
 
 .itemes_area li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
 }
 
 main {
     background-color: white;
-    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 200px;
+    width: 65%;
 }
 
 .name {
