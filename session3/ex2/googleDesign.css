@@ -2,11 +2,20 @@ body {
     background-image: url(./assets/background.jpg);
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.nav{
+    width: 22%;
+}
+
+.main{
+    width: 78%;
 }
 
 .itemes_area {
@@ -36,11 +45,13 @@ main {
     margin-top: 70px;
     margin-right: 200px;
     width: 80%;
+    padding-bottom: 20px;
 }
 
 .title_area {
     margin-left: 15px;
     margin-top: 20px;
+    
 }
 
 .title_area h1 {
@@ -120,14 +131,31 @@ main {
     border: 1px solid gray;
 }
 
-/* .footer_area{
+
+.relative {
+    position: relative;
+}
+
+#absolute {
+    position: absolute;
+    top: -80px;
+}
+
+.footer_area{
     text-align: center;
     display: block;
+    flex-wrap: wrap;
+    margin-left: 700px;
 }
 
 .footer_area p {
-    font-size: 100px;
-} */
+    font-size: 10px;
+}
+
+.blue_line{
+    color: #3366FF;
+    text-decoration: underline;
+}
 
 @font-face {
     font-family: DynaPuff;
