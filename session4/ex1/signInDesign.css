@@ -60,6 +60,10 @@ form input {
     font-weight: bold;
 }
 
+.sign_in_button_area:hover a {
+    opacity: 0.5;
+}
+
 .sign_up_area {
     width: 50%;
     background-color: #33CCFF;
@@ -99,7 +103,7 @@ form input {
     width: 150px;
 }
 
-input :hover{
+.sign_up_button_area:hover input{
     opacity: 0.5;
 }
 
