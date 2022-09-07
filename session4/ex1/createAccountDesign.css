@@ -9,8 +9,6 @@
 .input_area {
     display: flex;
     width: 50%;
-    /* border: 2px solid #66FFFF;
-    border-radius: 30px; */
     margin: auto;
 }
 
@@ -24,11 +22,34 @@
     border-bottom: 1px solid #66FFFF; 
     text-align: center;
     flex-grow: 1;
+    padding-bottom: 100px;
 }
 
 .sign_in_area h1 {
     color: white;
-    padding-top: 120px
+    padding-top: 120px;
+}
+
+.sign_in_area p {
+    color: white;
+}
+
+.sign_in_button_area{
+    margin-top: 40px;
+}
+
+.sign_in_button {
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sign_in_button:hover {
+    opacity: 0.5;
 }
 
 .sign_up_area {
@@ -43,6 +64,59 @@
 }
 
 .sign_up_area h1 {
-    padding-top: 120px;
+    padding-top: 30px;
+    font-size: 25px;
 }
 
+.sign_up_area p {
+    font-size: 12px;
+}
+
+.input_information {
+    background-color: #EEEEEE;
+    border: none;
+    width: 250px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+.sign_up_button_area {
+    margin-top: 17px;
+}
+
+.sign_up_button {
+    color: white;
+    background-color: #33CCFF;
+    border: 1px solid #66FFFF;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sign_up_button:hover {
+    opacity: 0.5;
+}
+
+.footer_area {
+    text-align: center;
+    margin-top: 160px;
+    
+}
+
+.footer_area p {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.my_name {
+    color: #33CCFF;
+}
