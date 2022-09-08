@@ -1,0 +1,39 @@
+.article_area {
+    width: 60%;
+    border: solid 2px #FFCC00;
+    box-shadow: 0 0 10px #FFCC66;
+    margin: auto;
+    border-radius: 35px;
+}
+
+.title_area {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title_area h1 {
+    color: #FFCC00;
+    text-shadow: 0 0 15px #FFCC33;
+}
+
+.cover_picture_area {
+    margin-top: 50px;
+}
+
+.cover_picture_area img {
+    width: 806px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    text-align: center;
+    width: fit-content;
+    color: white;
+    background-color: #FFCC00;
+    border-left: #FFFF33;
+    border-right: #FFFF33;
+    justify-content: space-between;
+}
