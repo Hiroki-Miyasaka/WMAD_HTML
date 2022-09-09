@@ -24,16 +24,21 @@
     width: 806px;
 }
 
-.flex {
-    display: flex;
+nav {
+    margin-top: 40px;
 }
 
-.flex p {
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
     text-align: center;
     width: fit-content;
     color: white;
     background-color: #FFCC00;
-    border-left: #FFFF33;
-    border-right: #FFFF33;
-    justify-content: space-between;
+    border-left: #FFFF33 1px solid;
+    border-right: #FFFF33 1px solid;
+    flex-grow: 1;
 }
