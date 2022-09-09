@@ -15,6 +15,7 @@
     color: #FFCC00;
     text-shadow: 0 0 15px #FFCC33;
     font-family: TypeMachine;
+    font-size: 60px;
 }
 
 .cover_picture_area {
@@ -67,6 +68,20 @@ nav ul li {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.charactor_picture_area {
+    text-align: center;
+}
+
+.explain_area {
+    width: 650px;
+    margin: auto;
+}
+
+.explain_area p {
+    font-family: FuturaHandwritten;
+    text-align: justify;
 }
 
 @font-face {
