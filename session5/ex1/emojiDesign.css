@@ -84,6 +84,26 @@ nav ul li {
     text-align: justify;
 }
 
+.cast_area {
+    width: 650px;
+    margin: auto;
+}
+
+.cast_area ul {
+
+}
+
+.cast_area ul li {
+    font-family: TypeMachine;
+    margin-top: 10px;
+}
+
+.cast_name {
+    background-color: #FFCC00;
+    text-decoration: underline;
+    padding: 5px 3px;
+}
+
 @font-face {
     font-family: FuturaHandwritten;
     src: url(./assets/FuturaHandwritten.ttf);
