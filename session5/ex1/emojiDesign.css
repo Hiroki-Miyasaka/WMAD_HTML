@@ -104,6 +104,28 @@ nav ul li {
     padding: 5px 3px;
 }
 
+.border_area {
+    margin-top: 50px;
+}
+
+.border_area hr {
+    border:1px dotted #FFCC33;
+}
+
+.footer_area {
+    margin-bottom: 20px;
+}
+
+.footer_area p {
+    font-family: FuturaHandwritten;
+    text-align: center;
+}
+
+.my_name {
+    color: #FFCC33;
+    text-decoration: underline;
+}
+
 @font-face {
     font-family: FuturaHandwritten;
     src: url(./assets/FuturaHandwritten.ttf);
