@@ -14,6 +14,7 @@
 .title_area h1 {
     color: #FFCC00;
     text-shadow: 0 0 15px #FFCC33;
+    font-family: TypeMachine;
 }
 
 .cover_picture_area {
@@ -41,4 +42,44 @@ nav ul li {
     border-left: #FFFF33 1px solid;
     border-right: #FFFF33 1px solid;
     flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: TypeMachine;
+}
+
+.fill_space_left {
+    margin-left: -40px;
+}
+
+
+.item_area {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.item_area h1 {
+    border-top: black 1px solid;
+    font-family: Mabook;
+    color: black;
+    text-shadow: 0 0 10px #FFCC66;
+    width: fit-content;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@font-face {
+    font-family: FuturaHandwritten;
+    src: url(./assets/FuturaHandwritten.ttf);
+}
+
+@font-face {
+    font-family: Mabook;
+    src: url(./assets/Mabook.ttf);
+}
+
+@font-face {
+    font-family: TypeMachine;
+    src: url(./assets/TypeMachine.ttf);
 }
