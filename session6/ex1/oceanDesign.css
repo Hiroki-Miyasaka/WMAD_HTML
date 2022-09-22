@@ -148,3 +148,41 @@ header {
     font-size: 16px;
     line-height: 148%;
 }
+
+.etymology {
+    position: relative;
+    margin-top: 135px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.etymology_title_area {
+    padding-top: 120px;
+}
+
+.etymology_title_area h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 148%;
+}
+
+.etymology_explain_area {
+    margin-top: 45px;
+    width: 630px;
+    padding-bottom: 100px;
+}
+
+.etymology_explain_area p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+}
+
+.etymology_image_area {
+    position: absolute;
+    top: 45px;
+    left: 650px;
+}
