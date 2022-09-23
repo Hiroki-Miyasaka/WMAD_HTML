@@ -186,3 +186,48 @@ header {
     top: 45px;
     left: 650px;
 }
+
+.oceanic_title_area {
+    margin-left: 90px;
+    margin-top: 300px;
+}
+
+.oceanic_title_area h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 148%;
+}
+
+.oceanic_table_area {
+    margin-top: 90px;
+}
+
+.oceanic_table_area table {
+    margin: auto;
+    border-spacing: 6px;
+}
+
+.oceanic_table_area table th {
+    color: #FFFFFF;
+    background-color: #468CA2;
+    border: 1px solid #737677;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.oceanic_table_area table td {
+    background-color: #FFFFFF;
+    border: 1px solid #737677;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
