@@ -104,12 +104,14 @@ header {
     line-height: 148%;
 }
 
-.center_image_area {
+.center_iframe_area {
     text-align: center;
     margin-top: 45px;
 }
 
-.center_image_area img {  
+.center_iframe_area iframe { 
+    width: 1164px;
+    height: 623px;
 }
 
 .ocean_and_sea {
