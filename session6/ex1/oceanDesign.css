@@ -231,10 +231,14 @@ header {
 
 .refrences_items_area {
     margin-top: 35px;
-    margin-left: 90px;
+}
+
+.refrences_items_area ul {
+    margin-left: 50px;
 }
 
 .refrences_items_area li {
+    padding-left: -40px;
     list-style: none;
     color: #FFFFFF;
     font-weight: 700;
