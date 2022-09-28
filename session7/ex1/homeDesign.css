@@ -141,5 +141,31 @@ header li {
     padding: 12px;  
 }
 
+.big_image {
+    margin-top: 215px;
+}
 
+.big_image img {
+    width: 100%;
+    height: auto;
+}
 
+.small_images {
+    position: relative;
+    margin-top: 140px;
+}
+
+.left_top_image {
+    position: absolute;
+    left: 204px;
+}
+
+.center_top_image {
+    position: absolute;
+    left: 557px;
+}
+
+.right_top_image {
+    position: absolute;
+    left: 909px;
+}
