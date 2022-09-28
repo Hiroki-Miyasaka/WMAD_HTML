@@ -49,3 +49,54 @@ header li {
     font-size: 16px;
     line-height: 132.2%;
 }
+
+.top_area {
+    position: relative;
+    margin-top: 22px;
+}
+
+.top_image_area {
+    text-align: center;
+}
+
+.top_image_area img {
+    width: 100%;
+    height: auto;
+}
+
+.title_area {
+    position: relative;
+    left: 147px;
+    top: -127px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 90px;
+    background-color: #F5F4F2;
+    border: 7px solid #FFFFFF;
+    width: 573px;
+    height: 303px;
+}
+
+.title_area p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 128.2%;
+    letter-spacing: 0.1em;
+}
+
+.title_area hr {
+    border: solid 4px #D5D4BB;
+    width: 37.5px;
+    margin-left: 0;
+}
+
+.title_area h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 132.2%;
+    letter-spacing: 0.08em;
+}
+
+
+
+
