@@ -136,5 +136,10 @@ header li {
     top: 20px;
 }
 
+.love_modern_image_area img {
+    border: 3px solid #ECE8E2;
+    padding: 12px;  
+}
+
 
 
