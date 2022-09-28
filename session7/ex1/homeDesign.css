@@ -101,6 +101,40 @@ header li {
     font-family: 'Bodoni 72';
 }
 
+.love_modern {
+    position: relative;
+}
+
+.love_modern_title_area {
+    padding-top: 60px;
+    margin-left: 222px;
+}
+
+.love_modern_title_area h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 132.2%;
+    letter-spacing: 0.08em;
+    font-family: 'Bodoni 72';
+}
+
+.love_modern_explain_area {
+    margin-top: 48px;
+    margin-left: 222px;
+}
+
+.love_modern_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132.2%;
+}
+
+.love_modern_image_area {
+    position: absolute;
+    left: 890px;
+    top: 20px;
+}
 
 
 
