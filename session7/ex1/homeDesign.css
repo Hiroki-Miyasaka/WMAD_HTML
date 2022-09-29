@@ -153,6 +153,7 @@ header li {
 .small_images {
     position: relative;
     margin-top: 140px;
+    height: 1010px;
 }
 
 .left_top_image {
@@ -204,4 +205,13 @@ header li {
     position: absolute;
     left: 909px;
     top: 635px;
+}
+
+footer {
+    background-color: #F5F4F2;
+    margin-top: 150px;
+}
+
+.footer_icon_area {
+
 }
