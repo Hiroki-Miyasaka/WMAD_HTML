@@ -169,3 +169,39 @@ header li {
     position: absolute;
     left: 909px;
 }
+
+.left_middle_image {
+    position: absolute;
+    left: 204px;
+    top: 410px;
+}
+
+.center_middle_image {
+    position: absolute;
+    left: 557px;
+    top: 315px;
+}
+
+.center_right_image {
+    position: absolute;
+    left: 909px;
+    top: 410px;
+}
+
+.left_bottom_image {
+    position: absolute;
+    left: 204px;
+    top: 635px;
+}
+
+.center_bottom_image {
+    position: absolute;
+    left: 557px;
+    top: 725px;
+}
+
+.right_bottom_image {
+    position: absolute;
+    left: 909px;
+    top: 635px;
+}
