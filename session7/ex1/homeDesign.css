@@ -207,11 +207,73 @@ header li {
     top: 635px;
 }
 
+.camera_area {
+    position: absolute;
+    top: 475px;
+    left: 690px;
+}
+
 footer {
+    position: relative;
     background-color: #F5F4F2;
     margin-top: 150px;
+    height: 413px;
 }
 
 .footer_icon_area {
-
+    position: absolute; 
+    left: 396px;
+    top: 77px;
+    text-align: center;
 }
+
+.footer_icon_area h3 {
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.2%;
+    letter-spacing: 0.1em;
+}
+
+.footer_icon_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 132.2%;
+}
+
+.tellphone_area {
+    position: absolute;
+    top: 213px;
+    left: 204px;
+    text-align: right;
+}
+
+.tellphone_area p {
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.2%;
+    letter-spacing: 0.1em;
+}
+
+.address_area {
+    position: absolute;
+    top: 213px;
+    left: 463px;
+}
+
+.address_area p {
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.2%;
+    letter-spacing: 0.1em;
+}
+
+.map_area {
+    position: absolute;
+    top: 77px;
+    left: 746px;
+}
+
