@@ -210,3 +210,32 @@ header {
     font-size: 16px;
     line-height: 29px;
 }
+
+.conversions {
+    text-align: center;
+}
+
+.conversions_title_area {
+    margin-top: 155px;
+}
+
+.conversions_title_area h2 {
+    color: #6C472D;
+    text-decoration: underline;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.conversions_explain_area {
+    margin: 41px auto;
+    width: 1261px;
+}
+
+.conversions_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
