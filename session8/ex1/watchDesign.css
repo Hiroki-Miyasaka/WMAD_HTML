@@ -119,3 +119,42 @@ header {
     top: -300px;
     left: 703px;
 }
+
+.timeLive {
+}
+
+.timeLive_title_area {
+    margin-top: 420px;
+    text-align: center;
+}
+
+.timeLive_title_area h2 {
+    color: #6C472D;
+    text-decoration: underline;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.timeLive_explain_area {
+    max-width: 1260px;
+    margin: 42px auto; 
+}
+
+.timeLive_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.timeLive_iframe_area {
+    margin-top: 52px;
+    text-align: center;
+}
+
+.timeLive_iframe_area iframe {
+    width: 808px;
+    height: 591px;
+}
