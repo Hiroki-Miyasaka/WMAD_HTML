@@ -270,3 +270,40 @@ header {
     box-sizing: border-box;
     padding: 15px 15px;
 }
+
+.aboutTime_title_area {
+    margin-top: 152px;
+    margin-left: 89px;
+}
+
+.aboutTime_title_area h2 {
+    color: #6C472D;
+    text-decoration: underline;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.aboutTime_explain_area {
+    margin-top: 41px;
+    margin-left: 88px;
+}
+
+.aboutTime_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 191.19%;
+}
+
+.brown {
+    color: #6C472D;
+    background-color: #E8E3E0;
+    border-radius: 8px;
+    padding: 5px 3px;
+}
+
+* {
+    margin-bottom: 100px;
+}
