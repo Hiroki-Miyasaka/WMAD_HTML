@@ -158,3 +158,55 @@ header {
     width: 808px;
     height: 591px;
 }
+
+.evolution {
+    position: relative;
+}
+
+.evolution_image_area{
+    position: relative;
+    margin-top: 153px;
+    margin-left: 88px;
+}
+
+.triangle_area {
+    position: absolute;
+    top: 94px;
+    left: 86px;
+}
+
+.dots_area {
+    position: absolute;
+    top: 600px;
+    left: -45px;
+    z-index: -1;
+}
+
+.evolution_title_area {
+    position: absolute;
+    top: 50px;
+    left: 704px;
+}
+
+.evolution_title_area h2 {
+    color: #6C472D;
+    text-decoration: underline;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.evolution_explain_area {
+    position: absolute;
+    top: 150px;
+    left: 704px;
+    width: 550px;
+}
+
+.evolution_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
