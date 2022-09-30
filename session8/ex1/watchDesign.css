@@ -44,3 +44,41 @@ header {
     max-width: 100%;
     height: auto;
 }
+
+.watch {
+    position: relative;
+}
+
+.watch_image_area {
+    margin-top: 190px;
+    margin-left: 26px;
+}
+
+.watch_title_area {
+    position: absolute;
+    left: 724px;
+    top: 50px;
+}
+
+.watch_title_area h2 {
+    color: #6C472D;
+    text-decoration: underline;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.watch_explain_area {
+    position: absolute;
+    left: 724px;
+    top: 150px;
+    width: 550px;
+}
+
+.watch_explain_area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
