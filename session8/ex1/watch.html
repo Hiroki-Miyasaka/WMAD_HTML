@@ -137,7 +137,89 @@
                     published difference tables which as of 2022 are specified to 10 microseconds and 0.1 nanoseconds respectively.
                 </p>
             </div>
+
+            <div class="conversions_table_area" style="overflow-x: auto;">
+                <table>
+                    <tr>
+                        <th>System</th>
+                        <th>Description</th>
+                        <th>UT1</th>
+                        <th>UTC</th>
+                        <th>TT</th>
+                        <th>TAI</th>
+                        <th>GPS</th>
+                    </tr>
+                    <tr>
+                        <td>UT1</td>
+                        <td>Mean Solar Time</td>
+                        <td>UT1</td>
+                        <td>UTC = UT1 â€“ DUT1</td>
+                        <td>
+                            TT = UT1 â€“ DUT1 + LS<br>
+                            + 32.184 s + DTT
+                        </td>
+                        <td>TAI = UT1 â€“ DUT1 + LS</td>
+                        <td rowspan="4">
+                            GPS = UT1<br>
+                            â€“ DUT1 +<br>
+                            LS â€“ 19 s
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>UTC</td>
+                        <td>Civil Time</td>
+                        <td>UT1 = UTC + DUT1</td>
+                        <td>UTC</td>
+                        <td>
+                            TT = UTC + LS + 32.184<br>
+                            s + DTT
+                        </td>
+                        <td>GPS = UTC + LS â€“ 19 s</td>
+                    </tr>
+                    <tr>
+                        <td>TT</td>
+                        <td>
+                            Terrestrial<br>
+                            (Ephemeris) Time
+                        </td>
+                        <td>
+                            UT1 = TT  32.184 s - DTT<br>
+                            LS + DUT1
+                        </td>
+                        <td>
+                            UTC = TT â€“ 32.184 s -<br>
+                            DTT â€“ LS
+                        </td>
+                        <td colspan="2">TAI = TT â€“ 32.184 s - DTT</td>
+                    </tr>
+                    <tr>
+                        <td>TAI</td>
+                        <td>Atomic Time</td>
+                        <td>UT1 = TAI LS + DUT1</td>
+                        <td>UTC = TAI â€“ LS</td>
+                        <td>TT = TAI + 32.184 s + DTT</td>
+                        <td>TAI</td>
+                    </tr>
+                    <tr>
+                        <td>GPS</td>
+                        <td>GPS Time</td>
+                        <td>
+                            UT1 = GPS + 19 s  LS +<br> 
+                            DUT1
+                        </td>
+                        <td>UTC = GPS + 19 s â€“ LS</td>
+                        <td>
+                            TT = GPS + 51.184 s +<br> 
+                            DTT
+                        </td>
+                        <td>TAI = GPS + 19 s</td>
+                        <td>GPS</td>
+                    </tr>
+                </table>
+            </div>
         </div>
+
+
     </main>
 </body>
 </html>

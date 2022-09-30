@@ -231,6 +231,7 @@ header {
 .conversions_explain_area {
     margin: 41px auto;
     width: 1261px;
+    text-align: left;
 }
 
 .conversions_explain_area p {
@@ -238,4 +239,34 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
+}
+
+.conversions_table_area {
+    margin-top: 81px;
+}
+
+.conversions_table_area table {
+    margin: auto;
+    border-spacing: 6px;
+}
+
+.conversions_table_area th {
+    background-color: #D0B39F;
+    border: 1px solid #737677;
+    font-family: 'Bodoni 72';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+
+.conversions_table_area td {
+    border: 1px solid #737677;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding: 15px 15px;
 }
