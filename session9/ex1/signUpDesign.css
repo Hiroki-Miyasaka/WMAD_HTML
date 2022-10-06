@@ -86,3 +86,21 @@ main {
     letter-spacing: 0.05em;
     white-space: nowrap;
 }
+
+.right_icon_area {
+    
+}
+
+.right_icon_area ul {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    list-style: none;
+}
+
+.right_icon_area li {
+    border: 1px solid #E0E0E1;
+    border-radius: 60px;
+    width: 62px;
+    height: 62px;
+}
