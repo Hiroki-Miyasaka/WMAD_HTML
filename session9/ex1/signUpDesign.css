@@ -88,7 +88,7 @@ main {
 }
 
 .right_icon_area {
-    
+    margin-top: 33px;
 }
 
 .right_icon_area ul {
@@ -103,4 +103,13 @@ main {
     border-radius: 60px;
     width: 62px;
     height: 62px;
+    display: flex;
 }
+
+.right_icon_area i {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
