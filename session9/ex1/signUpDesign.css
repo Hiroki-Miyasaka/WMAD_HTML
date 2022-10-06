@@ -112,4 +112,17 @@ main {
     align-items: center;
 }
 
+.right_explain_area {
+    margin-top: 53px;
+    text-align: center;
+}
+
+.right_explain_area p {
+    color: #C9C9CB;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}
 
