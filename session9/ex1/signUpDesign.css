@@ -1,16 +1,16 @@
 main {
     display: flex;
     margin: auto; 
-    max-width: 1333px;  
+    max-width: 95%;  
     margin-top: 90px;
 }
 
 .left_side {
-    /* margin: auto;  */
     padding-top: 290px;
-    padding-left: 70px;
-    padding-right: 70px;
-    max-width: 506px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 270px;
+    max-width: 37%; 
     background: linear-gradient(180deg, #4B8B7E 0%, #62B594 43.23%, #60B199 100%);
     border-top-left-radius: 21px;
     border-bottom-left-radius: 21px;
@@ -46,10 +46,12 @@ main {
 }
 
 .left_button_area {
-    margin-top: 58px;
+    margin: auto;
+    margin-top: 60px;
     text-align: center;
     border: 2px solid #FFFFFF;
     border-radius: 34px;
+    width: 260px;
 }
 
 .left_button_area p {
@@ -62,11 +64,10 @@ main {
 }
 
 .right_side {
-    /* margin: auto;  */
     padding-top: 130px;
-    padding-left: 200px;
-    padding-right: 200px;
-    max-width: 827px;
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 67%;
     border: solid 3px black;
     border-top-right-radius: 21px;
     border-bottom-right-radius: 21px;
