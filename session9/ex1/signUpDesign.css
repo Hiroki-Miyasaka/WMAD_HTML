@@ -1,3 +1,10 @@
+body {
+    margin-bottom: 90px;
+    background-image: url(./images/triangle.png), url(./images/circle.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
 main {
     display: flex;
     margin: auto; 
@@ -64,11 +71,11 @@ main {
 }
 
 .right_side {
+    background-color: #FFFFFF;
     padding-top: 130px;
     padding-left: 150px;
     padding-right: 150px;
     max-width: 67%;
-    border: solid 3px black;
     border-top-right-radius: 21px;
     border-bottom-right-radius: 21px;
 }
@@ -128,9 +135,6 @@ main {
 
 input.font-awesome {
     font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
 }
 
 .right_form_area {
