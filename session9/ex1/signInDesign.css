@@ -15,6 +15,7 @@ main {
     border: 3px black solid;
     border-top-left-radius: 21px;
     border-bottom-left-radius: 21px;
+    padding-bottom: 100px;
 }
 
 .left_title_area {
@@ -33,7 +34,8 @@ main {
 }
 
 .left_icon_area {
-    margin-top: 33px;
+    margin: auto;
+    margin-top: 33px; 
 }
 
 .left_icon_area ul {
@@ -103,6 +105,26 @@ input.font-awesome {
     line-height: 23px;
     letter-spacing: 0.07em;
     text-decoration: underline;
+}
+
+.left_button_area {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background: #5FADA1;
+    border-radius: 118px;
+    max-width: 280px;
+}
+
+.left_button_area p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.14em;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
