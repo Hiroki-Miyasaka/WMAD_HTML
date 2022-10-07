@@ -55,6 +55,20 @@ main {
     margin: auto;
 }
 
+.left_explain_area {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.left_explain_area p {
+    color: #C9C9CB;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}
+
 .right_area {
     width: 40%;
     background: linear-gradient(180deg, #4B8B7E 0%, #62B594 43.23%, #60B199 100%);
