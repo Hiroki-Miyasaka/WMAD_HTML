@@ -1,6 +1,9 @@
 body {
     margin-top: 95px;
     margin-bottom: 95px;
+    background-image: url(./images/triangle.png), url(./images/circle.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
 }
 
 main {
