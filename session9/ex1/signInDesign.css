@@ -69,6 +69,29 @@ main {
     letter-spacing: 0.04em;
 }
 
+input.font-awesome {
+    font-family: FontAwesome;
+}
+
+.left_form_area {
+    margin-top: 26px;
+    text-align: center;
+}
+
+.left_form_area form input {
+    background: #F8F9FB;
+    border-radius: 2px;
+    padding: 20px 200px 20px 10px;
+    margin-top: 15px;
+    border: none;
+}
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+
+
 .right_area {
     width: 40%;
     background: linear-gradient(180deg, #4B8B7E 0%, #62B594 43.23%, #60B199 100%);
