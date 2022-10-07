@@ -127,8 +127,6 @@ input.font-awesome {
     padding-bottom: 25px;
 }
 
-
-
 .right_area {
     width: 40%;
     background: linear-gradient(180deg, #4B8B7E 0%, #62B594 43.23%, #60B199 100%);
@@ -148,4 +146,38 @@ input.font-awesome {
     font-size: 50px;
     line-height: 59px;
     letter-spacing: 0.04em;
+}
+
+.right_explain_area {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.right_explain_area p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 153.19%;
+    letter-spacing: 0.02em;
+}
+
+.right_button_area {
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    max-width: 260px;
+}
+
+.right_button_area p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    border: 2px solid #FFFFFF;
+    border-radius: 34px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
