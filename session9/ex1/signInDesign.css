@@ -15,7 +15,6 @@ main {
 .left_area {
     width: 60%;
     background-color: #FFFFFF;
-    border: 3px black solid;
     border-top-left-radius: 21px;
     border-bottom-left-radius: 21px;
     padding-bottom: 100px;
