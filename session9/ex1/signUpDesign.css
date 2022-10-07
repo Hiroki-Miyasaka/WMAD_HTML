@@ -126,3 +126,45 @@ main {
     letter-spacing: 0.04em;
 }
 
+input.font-awesome {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.right_form_area {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.right_form_area form input {
+    background: #F8F9FB;
+    border-radius: 2px;
+    padding: 20px 200px 20px 10px;
+    margin-top: 15px;
+}
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+.right_button_area {
+    margin: auto;
+    margin-top: 33px;
+    background-color: #5FADA1;
+    border-radius: 118px;
+    text-align: center;
+    width: 280px;
+}
+
+.right_button_area p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.14em;
+}
