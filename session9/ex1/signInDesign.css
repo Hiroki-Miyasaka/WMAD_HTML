@@ -90,6 +90,21 @@ input.font-awesome {
     color: #CCCCCC;
 }
 
+.left_forgot_area {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.left_forgot_area p {
+    color: #858587;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.07em;
+    text-decoration: underline;
+}
+
 
 
 .right_area {
