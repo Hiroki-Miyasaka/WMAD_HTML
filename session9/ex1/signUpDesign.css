@@ -58,7 +58,7 @@ main {
     text-align: center;
     border: 2px solid #FFFFFF;
     border-radius: 34px;
-    width: 260px;
+    max-width: 260px;
 }
 
 .left_button_area p {
@@ -115,8 +115,6 @@ main {
 
 .right_icon_area i {
     margin: auto;
-    justify-content: center;
-    align-items: center;
 }
 
 .right_explain_area {
@@ -159,7 +157,7 @@ input.font-awesome {
     background-color: #5FADA1;
     border-radius: 118px;
     text-align: center;
-    width: 280px;
+    max-width: 280px;
 }
 
 .right_button_area p {
