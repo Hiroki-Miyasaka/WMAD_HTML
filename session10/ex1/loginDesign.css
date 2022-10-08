@@ -8,7 +8,7 @@ main {
     margin: 90px 300px;
 }
 
-.instruction_area {
+.upper_area {
     background-image: url(./images/instruction_image.png);
     background-size: contain;
     background-repeat: no-repeat;
