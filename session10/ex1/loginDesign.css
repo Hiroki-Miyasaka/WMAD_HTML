@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(90deg, #A198FF 0%, #E6CDEB 0.13%);
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    opacity: 0.14;
+}
