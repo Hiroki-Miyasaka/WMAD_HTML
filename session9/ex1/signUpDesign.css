@@ -56,18 +56,24 @@ main {
     margin: auto;
     margin-top: 60px;
     text-align: center;
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF;
     border-radius: 34px;
-    max-width: 260px;
+    max-width: 260px; */
 }
 
-.left_button_area p {
+.left_button_area button {
     color: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.04em;
+    border: 2px solid #FFFFFF;
+    border-radius: 34px;
+    width: 260px;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .right_side {
@@ -155,13 +161,13 @@ input.font-awesome {
 .right_button_area {
     margin: auto;
     margin-top: 33px;
-    background-color: #5FADA1;
-    border-radius: 118px;
     text-align: center;
-    max-width: 280px;
+    /* background-color: #5FADA1;
+    border-radius: 118px;
+    max-width: 280px; */
 }
 
-.right_button_area p {
+.right_button_area button {
     padding-top: 25px;
     padding-bottom: 25px;
     color: #FFFFFF;
@@ -170,4 +176,7 @@ input.font-awesome {
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.14em;
+    background-color: #5FADA1;
+    border-radius: 118px;
+    width: 280px;
 }
