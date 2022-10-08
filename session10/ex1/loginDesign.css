@@ -49,3 +49,30 @@ main {
     font-size: 16px;
     line-height: 19px;
 }
+
+.bottom_area {
+    background-color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.form_area {
+
+}
+
+.form_area form {
+    text-align: center;
+}
+
+.form_area form input {
+    border: none;
+    border-bottom: 1px solid #595666;
+}
+
+::placeholder {
+    color: #7F7C91;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
