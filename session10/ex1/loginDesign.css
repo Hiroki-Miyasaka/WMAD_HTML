@@ -1,6 +1,30 @@
 body {
     background: linear-gradient(90deg, #A198FF 0%, #E6CDEB 0.13%);
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
-    opacity: 0.14;
+    background-image: url(./images/background.png);
+    background-size: cover;
+}
+
+main {
+    margin: 90px 300px;
+}
+
+.instruction_area {
+    background-image: url(./images/instruction_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.title_area {
+    padding-top: 110px;
+    margin-left: 65px;
+}
+
+.title_area h1 {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 }
