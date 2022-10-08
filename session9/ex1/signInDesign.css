@@ -40,11 +40,13 @@ main {
     margin-top: 33px; 
 }
 
-.left_icon_area ul {
+.left_icon_area ul {    
     list-style: none;
     display: flex;
     gap: 15px;
     justify-content: center;
+    align-content: center;
+    padding: 0;
 }
 
 .left_icon_area ul li {
