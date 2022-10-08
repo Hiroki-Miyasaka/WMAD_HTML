@@ -10,21 +10,42 @@ main {
 
 .instruction_area {
     background-image: url(./images/instruction_image.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    padding-top: 140px;
+    padding-bottom: 300px;
 }
 
-.title_area {
-    padding-top: 110px;
-    margin-left: 65px;
+.title {
+    margin-left: 100px;
 }
 
-.title_area h1 {
+.title h1 {
     color: #FFFFFF;
     font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+}
+
+.procedure {
+    margin-top: 50px;
+    margin-left: 100px;
+    counter-reset: section;
+}
+
+.procedure h2::before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}
+
+.procedure h2 {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
 }
