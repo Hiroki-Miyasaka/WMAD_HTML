@@ -66,6 +66,9 @@ main {
 .form_area form input {
     border: none;
     border-bottom: 1px solid #595666;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 285px;
 }
 
 ::placeholder {
