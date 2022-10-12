@@ -64,16 +64,17 @@ main {
     text-align: center;
 }
 
-.form_area form input {
+/* .form_area form input {
     border: none;
     border-bottom: 1px solid #595666;
     padding-top: 12px;
     padding-bottom: 12px;
     width: 285px;
-}
+} */
 
 .name_area {
     position: relative;
+    padding-top: 1.5rem;
 }
 
 .name_area label {
@@ -85,8 +86,25 @@ main {
     line-height: 19px;
 }
 
-input [type=text] :focus {
-    transform: translate(0px, -50px);
+.name_area input {
+    border: none;
+    border-bottom: 1px solid #595666;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 285px;
+}
+
+.name_area input:focus {
+    padding-left: .5em;
+}
+
+.name_area input:focus + label {
+    top: -10em;
+    color: #786ABD;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .password_area {
@@ -103,6 +121,13 @@ input [type=text] :focus {
     line-height: 19px;
 }
 
+.password_area input {
+    border: none;
+    border-bottom: 1px solid #595666;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 285px;
+}
 
 
 
