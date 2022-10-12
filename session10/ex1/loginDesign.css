@@ -53,6 +53,7 @@ main {
 .bottom_area {
     background-color: #FFFFFF;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .form_area {
@@ -71,6 +72,49 @@ main {
     width: 285px;
 }
 
+.name_area {
+    position: relative;
+}
+
+.name_area label {
+    position: absolute;
+    color: #7F7C91;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input [type=text] :focus {
+    transform: translate(0px, -50px);
+}
+
+.password_area {
+    margin-top: 40px;
+    position: relative;
+}
+
+.password_area label {
+    position: absolute;
+    color: #7F7C91;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 ::placeholder {
     color: #7F7C91;
     font-family: 'Roboto';
@@ -78,4 +122,8 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+} */
+
+.form_area form input:active {
+
 }
