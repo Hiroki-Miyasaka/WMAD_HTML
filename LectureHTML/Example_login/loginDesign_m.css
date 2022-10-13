@@ -50,15 +50,25 @@ main {
     line-height: 19px;
 }
 
-/* .bottom_area {
+.bottom_area {
     background-color: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
+.form_area {}
+
 .form_area form {
     text-align: center;
 }
+
+/* .form_area form input {
+    border: none;
+    border-bottom: 1px solid #595666;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 285px;
+} */
 
 .name_area {
     position: relative;
@@ -83,7 +93,7 @@ main {
     width: 285px;
 }
 
-.name_area input:focus + label {
+.name_area input:focus+label {
     transform: translate(0px, -10px);
     color: #786ABD;
     font-family: 'Roboto';
@@ -115,21 +125,21 @@ main {
     width: 285px;
 }
 
-.password_area input:focus + label {
+.password_area input:focus+label {
     transform: translate(0px, -10px);
     color: #786ABD;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-} */
+}
 
 *:focus {
     outline: none;
 }
 
 .login-box {
-    /* width: 75%; */
+    width: 75%;
     height: 60%;
     padding: 20px;
     background: rgb(255, 255, 255);
@@ -137,11 +147,10 @@ main {
 
 .login-box .user-box {
     position: relative;
-    text-align: center;
 }
 
 .login-box .user-box input {
-    width: 50%;
+    width: 100%;
     padding: 15px 0;
     color: rgb(37, 37, 37);
     margin-bottom: 30px;
@@ -156,7 +165,7 @@ main {
 .login-box .user-box label {
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 0;
     padding: 10px 0;
     font-size: 16px;
     color: #7F7C91;
@@ -165,15 +174,8 @@ main {
 
 .login-box .user-box input:focus~label,
 .login-box .user-box input:valid~label {
-    transform: translate(0, -20px);
-    /* top: -20px;
-    left: 0; */
+    top: -20px;
+    left: 0;
     color: #7566BC;
     font-size: 12px;
 }
-
-
-
-
-
-
