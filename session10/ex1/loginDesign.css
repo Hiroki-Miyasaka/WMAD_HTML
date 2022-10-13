@@ -79,6 +79,7 @@ main {
 
 .name_area label {
     position: absolute;
+    left: 230px;
     color: #7F7C91;
     font-family: 'Roboto';
     font-weight: 400;
@@ -94,12 +95,8 @@ main {
     width: 285px;
 }
 
-.name_area input:focus {
-    padding-left: .5em;
-}
-
 .name_area input:focus + label {
-    top: -10em;
+    transform: translate(0px, -10px);
     color: #786ABD;
     font-family: 'Roboto';
     font-weight: 400;
@@ -114,6 +111,7 @@ main {
 
 .password_area label {
     position: absolute;
+    left: 230px;
     color: #7F7C91;
     font-family: 'Roboto';
     font-weight: 400;
@@ -129,26 +127,22 @@ main {
     width: 285px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* 
-::placeholder {
-    color: #7F7C91;
+.password_area input:focus + label {
+    transform: translate(0px, -10px);
+    color: #786ABD;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-} */
-
-.form_area form input:active {
-
+    font-size: 12px;
+    line-height: 14px;
 }
+
+*:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
