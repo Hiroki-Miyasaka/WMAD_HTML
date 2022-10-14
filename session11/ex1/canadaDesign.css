@@ -1,12 +1,19 @@
 body {
     background-color: #F5F5F5;
     margin: 44px 87px 62px 87px;
+    counter-reset: section;
 }
 
 :root {
     --blue: #2779B0; 
     --gradation: linear-gradient(270deg, rgba(39, 121, 176, 0.5) -36.61%, rgba(250, 250, 250, 0) 170.39%);
     --font-family: 'Roboto';
+    --subtitle-font-weight: 700;
+    --subtitle-font-size: 24px;
+    --subtitle-line-height: 22px;
+    --explain-font-weight: 400;
+    --explain-font-size: 16px;
+    --explain-line-height: 23px;
 }
 
 .title_area {
@@ -23,4 +30,55 @@ body {
 
 hr {
     border: 2px solid #CECECE;
+}
+
+.title_explain {
+    margin-top: 50px;
+}
+
+.title_explain p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.subtitle {
+    margin-top: 64px;
+}
+
+.subtitle h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    color: var(--blue);
+    background: var(--gradation);
+    font-family: var(--font-family);
+    font-weight: var(--subtitle-font-weight);
+    font-size: var(--subtitle-font-size);
+    line-height: var(--subtitle-line-heights);
+}
+
+.subtitle h2::before {
+    counter-increment: section;
+    content: counter(section)". ";
+}
+
+.image_area {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.image_area img {
+}
+
+.explain {
+    margin-top: 60px;
+}
+
+.explain p {
+    font-family: var(--font-family);
+    font-weight: var(--explain-font-weight);
+    font-size: var(--explain-font-size);
+    line-height: var(--explain-line-height);
 }
