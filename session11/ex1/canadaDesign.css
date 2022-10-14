@@ -1,0 +1,26 @@
+body {
+    background-color: #F5F5F5;
+    margin: 44px 87px 62px 87px;
+}
+
+:root {
+    --blue: #2779B0; 
+    --gradation: linear-gradient(270deg, rgba(39, 121, 176, 0.5) -36.61%, rgba(250, 250, 250, 0) 170.39%);
+    --font-family: 'Roboto';
+}
+
+.title_area {
+    text-align: center;
+}
+
+.title_area h1 {
+    color: var(--blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+}
+
+hr {
+    border: 2px solid #CECECE;
+}
