@@ -41,9 +41,7 @@ header {
 }
 
 main {
-    margin: auto;
-    width: 90%;
-    padding-bottom: 150px;
+    padding: 0 30px 150px 30px;
 }
 
 .title {
