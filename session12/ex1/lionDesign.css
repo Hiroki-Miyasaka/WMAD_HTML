@@ -41,8 +41,8 @@ header {
 }
 
 main {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: auto;
+    width: 90%;
     padding-bottom: 150px;
 }
 
