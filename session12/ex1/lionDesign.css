@@ -41,8 +41,8 @@ header {
 }
 
 main {
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .title {
@@ -70,6 +70,15 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 135.69%;
+}
+
+.images_area {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_area img {
 }
 
 @font-face {
