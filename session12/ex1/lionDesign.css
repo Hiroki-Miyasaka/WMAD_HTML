@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -80,6 +80,20 @@ main {
 }
 
 .images_area img {
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135.69%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @font-face {
